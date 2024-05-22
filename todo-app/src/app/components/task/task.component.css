@@ -1,0 +1,64 @@
+.task-container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-columns {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    margin-top: 3vh;
+}
+
+.task-column {
+    flex: 1;
+    padding: 10px;
+}
+
+.task-column h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.task-item p {
+    flex: 1;
+    margin: 0;
+}
+
+.completed{
+    background-color: #b7e1cd;
+}
+
+.uncompleted {
+    background-color: #fc9d9d;
+  }
+
+.delete-button {
+    margin-left: auto;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+}
